@@ -71,11 +71,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import MinMaxScaler
 
 
-### Task 4: Try a varity of classifiers
-### Please name your classifier clf for easy export below.
-### Note that if you want to do PCA or other multi-stage operations,
-### you'll need to use Pipelines. For more info:
-### http://scikit-learn.org/stable/modules/pipeline.html   
+### Task 4: Try a varity of classifiers  
 scaler = MinMaxScaler()
 ###---1st Algorithm---###
 
