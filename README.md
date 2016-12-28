@@ -48,10 +48,11 @@ Validation is assessing the performance of the algorithm. A classic mistake is t
 
 ##Evaluation
 The performance of my model is shown below.
-Evaluation | Metric	Value
------------|-------------
-precision |	0.43
-recall |	0.33
+
+Evaluation |	Metric Value
+-----------|----------------
+precision|	0.43
+recall|	0.33
 
 In terms of this project, precision is the probability that given a result of POI, it is indeed a POI. Meanwhile, recall is the probability that a POI is correctly identified. Good precision and bad recall means that whenever a POI gets flagged, I know with a lot of confidence that it is very likely to be a real POI and not a false alarm. However, I sometimes miss real POIs since I am effectively reluctant to pull the trigger on edge cases. Bad precision and good recall means that nearly every time a POI shows up in my test set, I am able to identify him or her. On the other hand, I sometimes get some false positives where non-POIs get flagged.
 
