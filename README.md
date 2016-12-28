@@ -56,6 +56,17 @@ recall|	0.33
 
 In terms of this project, precision is the probability that given a result of POI, it is indeed a POI. Meanwhile, recall is the probability that a POI is correctly identified. Good precision and bad recall means that whenever a POI gets flagged, I know with a lot of confidence that it is very likely to be a real POI and not a false alarm. However, I sometimes miss real POIs since I am effectively reluctant to pull the trigger on edge cases. Bad precision and good recall means that nearly every time a POI shows up in my test set, I am able to identify him or her. On the other hand, I sometimes get some false positives where non-POIs get flagged.
 
+###Files
+- `poi_id.py`: Person of interest identifier
+- `final_project_dataset.pkl`: The dataset for the project
+
+###References
+- [Comparing supervised learning algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/)
+- [Feature Scaling](http://dshincd.github.io/blog/feautre-scaling/)
+- [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+- Udacity Forums
+
+
 
 
 
